@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RPS 1</title>
+  </head>
+  <body>
+    <center>
+      <h1>Let's Play 👊 ✋ ✌</h1>
+      <div class="results">
+    <h2>Your Choice: <span id="user-choice"></span></h2>
+    <h2>Computer Choice: <span id="computer-choice"></span></h2>
+    <h2>Result:<span id="result"></span></h2>
+  </div>
+      <p>Click a button to start playing! First to get 10 wins!</p>
+    <button class="buttons" id="rock">🪨</button>
+    <button class="buttons" id="paper">🧻</button>
+    <button class="buttons" id="scissors">✂️</button>
+
+      <div>Your Score: </div>
+      <span id="your-score">0</span>
+
+      <div>Computer Score: </div>
+      <span id="computer-score">0
+      </span>
+
+      <br>
+
+      <button class="reset-game" onclick="resetGame()">RESET GAME</button>
+  </center>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>

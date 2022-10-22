@@ -1,0 +1,63 @@
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('/pexels-toni-cuenca-594059\ \(1\).jpg');
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#rock, #paper, #scissors {
+    background-color: whitesmoke;
+    padding: 50px;
+    font-size: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.buttons {
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover {
+    transform: scale(1.10);
+}
+
+#your-score, #computer-score {
+    font-size: 40px;
+}
+
+.results {
+    background-color:whitesmoke;
+    opacity: 0.90;
+    padding: 20px 40px;
+    color: indianred;
+}
+
+span {
+    color: black;
+}
+
+.reset-game {
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.reset-game:hover {
+    background-color: rgb(174, 255, 222);
+    cursor: pointer;
+}
+
+#your-score, #computer-score {
+    color: yellow;
+    font-size: 100px;
+}
